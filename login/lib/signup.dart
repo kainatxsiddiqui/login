@@ -19,12 +19,12 @@ class signup extends StatelessWidget {
          height: size.height,
          width:size.width,
          padding: const EdgeInsets.only(top:60, left: 20,right:20),
-         color: Color.fromARGB(255, 146, 172, 180),
+         color: Color.fromARGB(255, 219, 226, 228),
         child:Form(
          key:formKey,
          child: Column(
           children:[
-            Text("Register", style: TextStyle(color: Color.fromARGB(255, 65, 62, 62), fontSize: 30, letterSpacing:10 ),),
+            Text("Register", style: TextStyle(color: Color.fromARGB(255, 65, 62, 62), fontSize: 30, ),),
              Padding(padding: EdgeInsets.all(15),child: Text("Create your account")),
             TextFormField(
               controller: nameCtrl,
@@ -49,7 +49,7 @@ class signup extends StatelessWidget {
                 border: OutlineInputBorder(),
                 
                 prefixIcon: Icon(Icons.email),
-                hintText:"JohnSmith@GMIL.COM", labelText:'EMAIL'
+                hintText:"JohnSmith@GMIL.COM", labelText:'email'
               ),
             ),
             SizedBox(height:16),
@@ -67,6 +67,7 @@ class signup extends StatelessWidget {
                  border: OutlineInputBorder(),
                  
                 prefixIcon: Icon(Icons.password),
+                   suffixIcon: Icon(Icons.visibility),
                 hintText:"xxxxxx",labelText: 'Password',
               ),
             ),
@@ -87,7 +88,8 @@ class signup extends StatelessWidget {
                  border: OutlineInputBorder(),
                  
                 prefixIcon: Icon(Icons.password),
-                hintText:"xxxxxx",labelText: 'Password',
+                suffixIcon: Icon(Icons.visibility),
+                hintText:"xxxxxx",labelText: ' Confirm Password',
               ),
             ),
             SizedBox(height:26),
@@ -138,7 +140,7 @@ class signup extends StatelessWidget {
                                 builder: (context) => login(
                                     )));
   },
-  child: new Text("  Login", style: TextStyle(color: Colors.blue),),
+  child: new Text("  Login", style: TextStyle(color: Color.fromARGB(255, 8, 45, 75)),),
 ),
   ],
               ),
