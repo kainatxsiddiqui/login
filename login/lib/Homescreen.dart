@@ -12,14 +12,14 @@ class HomeScreen extends StatelessWidget {
           height: size.height,
         width: size.width,
         padding: const EdgeInsets.all(16),
-        color: Colors.blue,
+        color: Color.fromARGB(255, 22, 88, 142),
         child: Column(
           children: [
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-    Text("Login App", style: TextStyle(color: Colors.white),),
+    Text("Login App", style: TextStyle(color: Colors.white, fontWeight:FontWeight.bold, fontSize: 30),),
     ElevatedButton(
    onPressed: () {
                             Navigator.pop(
