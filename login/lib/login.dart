@@ -15,14 +15,14 @@ class login extends StatelessWidget {
       body:Container(
          height: size.height,
          width:size.width,
-         padding: const EdgeInsets.only(top:100, left: 20,right:20),
-         color: Color.fromARGB(255, 146, 172, 180),
+         padding: const EdgeInsets.only(top:200, left: 20,right:20),
+         color: Color.fromARGB(255, 219, 226, 228),
         child:Form(
          key:formKey,
          child: Column(
           children:[
-            Text("Welcome Back", style: TextStyle(color: Color.fromARGB(255, 65, 62, 62), fontSize: 30, letterSpacing:10 ),),
-             Padding(padding: EdgeInsets.only(top:15,bottom:26),child: Text("Login to your account")),
+            Text("Welcome back", style: TextStyle(color: Color.fromARGB(255, 65, 62, 62), fontSize: 30, ),),
+             Padding(padding: EdgeInsets.only(top:18,bottom:80),child: Text("Login to your account")),
             TextFormField(
               controller: usernameCtrl,
              validator: RequiredValidator(errorText: "Required*"),
@@ -46,7 +46,8 @@ class login extends StatelessWidget {
               decoration: const InputDecoration(
                  border: OutlineInputBorder(),
                  
-                prefixIcon: Icon(Icons.password),
+                prefixIcon: Icon(Icons.password,),
+                suffixIcon: Icon(Icons.visibility),
                 hintText:"xxxxxx",labelText: 'Password',
               ),
             ),
@@ -70,7 +71,9 @@ class login extends StatelessWidget {
                      style: ElevatedButton.styleFrom(
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30.0),
+
                   ),
+                  
                 ),
                     child: const Text(
                       'Login',
@@ -100,7 +103,7 @@ class login extends StatelessWidget {
                                   
                                     )));
   },
-  child: new Text("  Sign up", style: TextStyle(color: Colors.blue),),
+  child: new Text("  Sign up", style: TextStyle(color: Color.fromARGB(255, 8, 45, 75)),),
 ),
   ],
               ),
