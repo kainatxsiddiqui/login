@@ -1,3 +1,7 @@
-![image](https://github.com/kainatxsiddiqui/login/assets/107881236/d9a1db26-f859-4a1e-8cb4-889b78ece6c4)
-![image](https://github.com/kainatxsiddiqui/login/assets/107881236/6d331abe-1012-4784-8369-cd98717de02d)
-![image](https://github.com/kainatxsiddiqui/login/assets/107881236/7b69095f-525b-497f-803d-5b542bbadb69)
+
+![image](https://github.com/kainatxsiddiqui/login/assets/107881236/99e74faf-1c63-4ab4-950e-0ea084f87ec1)
+
+![image](https://github.com/kainatxsiddiqui/login/assets/107881236/7c15b1e8-972b-44cf-b755-39bad672fb4b)
+
+
+![image](https://github.com/kainatxsiddiqui/login/assets/107881236/79cea422-215d-40b6-91e8-ae379141bfc9)
